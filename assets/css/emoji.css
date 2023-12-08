@@ -1,0 +1,30 @@
+.emoji {
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  display: inline-block;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.emoji-mm {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem;
+  line-height: 1;
+}
+
+.emoji-lg {
+  font-size: 3rem !important;
+}
+
+.emoji-md {
+  font-size: 2.25rem !important;
+}
+.emoji-sm {
+  font-size: 1.55rem !important;
+}
+.emoji-xs {
+  font-size: 1rem !important;
+}

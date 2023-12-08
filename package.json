@@ -1,0 +1,38 @@
+{
+  "name": "blur-win",
+  "version": "0.1.0",
+  "author": "Alexandr Lyadov <1337@milley.uno>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/milley69/blur-win.git"
+  },
+  "homepage": "https://github.com/milley69/blur-win#readme",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@formkit/auto-animate": "^0.8.1",
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.1.0",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/components": "^10.7.0",
+    "@vueuse/nuxt": "^10.7.0",
+    "daisyui": "^4.4.19",
+    "nuxt": "^3.8.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.1",
+    "node-emoji": "^2.1.3"
+  }
+}
