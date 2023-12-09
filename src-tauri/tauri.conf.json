@@ -13,7 +13,16 @@
     "allowlist": {
       "all": false,
       "window": {
-        "center": true
+        "center": true,
+        "all": false,
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true
       }
     },
     "bundle": {
@@ -35,7 +44,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Blur is a free communications app that lets you share voice, video, and text chat with friends",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
@@ -51,13 +60,26 @@
     },
     "windows": [
       {
+        "decorations": false,
         "fullscreen": false,
         "resizable": true,
         "title": "Blur",
         "height": 704,
         "minHeight": 704,
         "width": 1280,
-        "minWidth": 1280
+        "minWidth": 1280,
+        "center": true,
+        "visible": false
+      },
+      {
+        "width": 250,
+        "height": 350,
+        "decorations": false,
+        "resizable": false,
+        "url": "splashscreen.html",
+        "label": "splashscreen",
+        "transparent": true,
+        "center": true
       }
     ]
   }
